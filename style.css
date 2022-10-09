@@ -5,13 +5,14 @@
     align-items: center;
 }
 #home{
-    background-color: blueviolet;
+    background: linear-gradient(-135deg, #FF0000, #9A2EFE);
     font-size: 500%;
     color: white;
     
 }
 #intro{
-    background-color: yellowgreen;
+    background: linear-gradient(45deg, Violet, Orange);
+    font-size: 1cm;
 }
 #like{
     background-color: red;
@@ -27,20 +28,24 @@ body{
     align-items: center;
 }
 .card{
+    
     width: 200px;
     height: 300px;
     background-color: blue;
     margin: 10px;
 }
 .card_image{
+    
     background-color: white;
     height: 50%;
 }
 .card_title{
+    
     background-color: coral;
     height: 15%;
 }
 .card_description{
+   
     background-color: cornflowerblue;
     height: 35%;
 }
